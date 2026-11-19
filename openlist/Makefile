@@ -57,7 +57,7 @@ define Download/openlist-frontend
 	URL:=https://github.com/OpenListTeam/OpenList-Frontend/releases/download/v$(FRONTEND_VERSION)/
 	URL_FILE:=$(FRONTEND_FILE)
 	FILE:=$(FRONTEND_FILE)
-	HASH:=sha256:4e137046ef350ca847bff145824ed2ffe9948a05c39a6e269b80c69eb13fc636
+	HASH:=4e137046ef350ca847bff145824ed2ffe9948a05c39a6e269b80c69eb13fc636
 endef
 
 define Build/Prepare
